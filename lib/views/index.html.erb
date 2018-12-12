@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div>
+      <h1>Page Refresh Count: <%= count_cookie %>!</h1>
+      <form method="post" action="/countme">
+      <input type="submit" value="Increase Cookie Count">
+      </form>
+      <form method="post" action="/lowerme">
+      <input type="submit" value="Decrease Cookie Count">
+      </form>
+    </div>
+  </body>
+</html>
